@@ -4,14 +4,17 @@ import os
 def get_cwd():
     print(os.getcwd())
 
-def change_dir() :
+def change_dir():
     os.chdir("/Users/mageshlookalike/Documents/Personal/AI/Python/src/modules")
 
+def list_dir():
+    print(os.listdir("../../../../../Personal"))
 
 def main():
     get_cwd()
     change_dir()
     get_cwd()
+    list_dir()
 
 
 if __name__ == "__main__":
