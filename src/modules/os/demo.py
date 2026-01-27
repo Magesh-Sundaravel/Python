@@ -57,6 +57,13 @@ for dir_path, dir_name, file_name in os.walk("../../../src"):
     print("-" * 100)
         
 
+# Home Directory 
+print(os.environ.get("HOME"))
+
+
+# If you want to add two path, Its more easy to do with the path 
+print(os.path.join(os.environ.get("HOME"),"demo.txt"))
+
 
 
 
